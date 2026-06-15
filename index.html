@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Unseen Archives</title>
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>The Unseen Archives</h1>
+<p>Urban Novels • Paranormal Stories</p>
+</header>
+
+<nav>
+<a href="#featured">Home</a>
+<a href="#urban">Urban</a>
+<a href="#paranormal">Paranormal</a>
+</nav>
+
+<section id="controls">
+<div class="search-bar">
+<input type="text" id="searchInput" placeholder="Search stories...">
+</div>
+
+<div class="filter-sort">
+<select id="categoryFilter">
+<option value="all">All Categories</option>
+<option value="urban">Urban</option>
+<option value="paranormal">Paranormal</option>
+</select>
+
+<select id="sortBy">
+<option value="newest">Newest</option>
+<option value="popular">Most Popular</option>
+<option value="title">Title A-Z</option>
+</select>
+</div>
+</section>
+
+<section id="featured">
+
+<div class="story-card" data-category="urban" data-date="2026-01-15" data-popular="850">
+<img src="assets/covers/story1.jpg" alt="The Richest Man Awakens">
+<h2>The Richest Man Awakens</h2>
+<p class="category">Urban Shenhao Story</p>
+<p class="meta">📅 Jan 15, 2026 • ❤️ 850</p>
+
+<a href="chapters/story1-ch1.html" class="read-btn">
+Read Now
+</a>
+</div>
+
+<div class="story-card" data-category="paranormal" data-date="2025-12-20" data-popular="1200">
+<img src="assets/covers/story2.jpg" alt="Case Files: Paranormal">
+<h2>Case Files: Paranormal</h2>
+<p class="category">True Horror Collection</p>
+<p class="meta">📅 Dec 20, 2025 • ❤️ 1200</p>
+
+<a href="chapters/story2-ch1.html" class="read-btn">
+Read Now
+</a>
+</div>
+
+<div class="story-card" data-category="urban" data-date="2026-02-01" data-popular="320">
+<img src="assets/covers/story3.jpg" alt="Street King">
+<h2>Street King</h2>
+<p class="category">Urban Crime Saga</p>
+<p class="meta">📅 Feb 1, 2026 • ❤️ 320</p>
+
+<a href="chapters/story3-ch1.html" class="read-btn">
+Read Now
+</a>
+</div>
+
+<div class="story-card" data-category="paranormal" data-date="2025-11-10" data-popular="2100">
+<img src="assets/covers/story4.jpg" alt="The Haunted Manor">
+<h2>The Haunted Manor</h2>
+<p class="category">Gothic Mystery</p>
+<p class="meta">📅 Nov 10, 2025 • ❤️ 2100</p>
+
+<a href="chapters/story4-ch1.html" class="read-btn">
+Read Now
+</a>
+</div>
+
+</section>
+
+<div id="noResults" class="no-results" style="display:none;">
+<p>No stories found. Try a different search or filter.</p>
+</div>
+
+<footer>
+© 2026 The Unseen Archives
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
